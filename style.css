@@ -1,0 +1,170 @@
+
+body {
+  background: linear-gradient(90deg, #c6edaf, #0e9f41);
+}
+
+.container-sm{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.screen {
+  
+  max-width: 100%;
+  border-radius: 10%;
+  padding: 2em;
+  margin: 3em;
+  box-shadow: 0px 0px 24px #5c5696;
+}
+
+#title {
+  align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.rows{
+  display: flex;
+    justify-content: center;
+    margin-right: 3.5rem;
+}
+
+.rows .container{
+  width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#remove {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: white;
+
+}
+
+
+.input_container {
+  display: flex;
+    justify-content: center;
+}
+
+.input{
+  padding: 8px;
+  margin: 4px;
+  width: 150px;
+  border-radius: 5px;
+  border: #F5F5F5;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.del-but {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: white;
+
+}
+
+
+
+.button{
+  padding-top: 5px;
+  display: grid; 
+  grid-template-columns: 2fr;
+}
+
+.button .button-right-item{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.button .button-left-item{
+  text-align: left;
+}
+
+.gwa-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.gwa {
+  width: 210px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: rgb(163, 226, 163);
+  padding-top: 30px;
+  padding-left: 20px;
+  /* Add any additional styling you may need */
+}
+
+.sayings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ... Rest of your CSS ... */
+/* Media query for Android devices and other small screens */
+@media (max-width: 575px) {
+  .column-container {
+    flex-wrap: wrap;
+    margin-left: 0; /* Remove the margin to prevent misalignment */
+  }
+
+  .header {
+    font-size: smaller;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    margin: 0px 0px 10px; /* Adjust margin to your preference */
+  }
+
+  .text-field {
+    max-width: 120px;
+  }
+
+  .num-field {
+    max-width: 50px;
+    flex: 1; /* Allow the text fields to be flexible */
+  }
+
+  /* Additional adjustments for smaller screens: */
+  .container {
+    padding: 1rem; /* Reduce padding slightly */
+  }
+
+  .button-container {
+    width: 100%; /* Make it full-width for better layout */
+  }
+
+  .column-container {
+      display: block; /* Change to block layout for smaller screens */
+      text-align: center; /* Center the column names */
+  }
+  
+  .column-names {
+      display: inline-block; /* Keep column names on the same line */
+      margin-bottom: 10px; /* Add spacing between names and input fields */
+      margin-left: 20px;
+  }
+}
+
