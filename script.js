@@ -4,7 +4,7 @@ document.querySelector('#add_subj').addEventListener('click', function() {
 
   newSubject.innerHTML = 
     `<div class="input-container" id="input-container">
-      <input type="text" name="subject" class="input">
+      <input type="text" name="subject" class="input" id="subject">
       <input type="number" name="unit" class="input" id="unit">
       <input type="number" name="grade" class="input" id="grade">
       <button type="button" class="btn btn-danger remove">x</button>

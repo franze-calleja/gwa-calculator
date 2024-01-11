@@ -123,47 +123,53 @@ body {
 
 
 @media (max-width: 575px) {
-  .column-container {
-    flex-wrap: wrap;
-    margin-left: 0; /* Remove the margin to prevent misalignment */
-  }
-
-  .header {
-    font-size: smaller;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 20px;
-    margin: 0px 0px 10px; /* Adjust margin to your preference */
-  }
-
-  .text-field {
-    max-width: 120px;
-  }
-
-  .num-field {
-    max-width: 50px;
-    flex: 1; /* Allow the text fields to be flexible */
-  }
-
-  /* Additional adjustments for smaller screens: */
   .container {
-    padding: 1rem; /* Reduce padding slightly */
+    flex-wrap: wrap;
+    margin-left: 0;
+    display: block; 
+    text-align: center;
   }
 
-  .button-container {
-    width: 100%; /* Make it full-width for better layout */
+  #title {
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-size: smaller;
+    justify-content: center;
+    align-items: center; 
   }
 
-  .column-container {
-      display: block; /* Change to block layout for smaller screens */
-      text-align: center; /* Center the column names */
+  .screen {
+    padding: 1rem; 
   }
+
+  .column {
+    display: inline-block; 
+    margin-bottom: 115px; 
+    margin-left: 25px;
+  }
+
+  #subject {
+    max-width: 115px;
+  }
+
+  #unit {
+    flex: 1;
+    max-width: 45px;
+  }
+
+  #grade {
+    flex: 1; 
+    max-width: 45px;
+  }
+
+  .button {
+    width: 90%; 
+  }
+
   
-  .column-names {
-      display: inline-block; /* Keep column names on the same line */
-      margin-bottom: 10px; /* Add spacing between names and input fields */
-      margin-left: 20px;
-  }
 }
 
 
