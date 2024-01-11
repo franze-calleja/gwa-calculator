@@ -122,16 +122,48 @@ body {
 
 
 
-/* Mobile devices (portrait and landscape) */
-@media only screen and (max-width: 767px) {
-  /* Adjust your styles for smaller screens here */
-  body {
-    font-size: 14px; /* Example: Decrease font size for better readability on smaller screens */
+@media (max-width: 575px) {
+  .column-container {
+    flex-wrap: wrap;
+    margin-left: 0; /* Remove the margin to prevent misalignment */
   }
 
-  /* You may need to modify other styles as well */
-  .container-sm {
-    padding: 10px; /* Example: Add some padding for better spacing on smaller screens */
+  .header {
+    font-size: smaller;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    margin: 0px 0px 10px; /* Adjust margin to your preference */
+  }
+
+  .text-field {
+    max-width: 120px;
+  }
+
+  .num-field {
+    max-width: 50px;
+    flex: 1; /* Allow the text fields to be flexible */
+  }
+
+  /* Additional adjustments for smaller screens: */
+  .container {
+    padding: 1rem; /* Reduce padding slightly */
+  }
+
+  .button-container {
+    width: 100%; /* Make it full-width for better layout */
+  }
+
+  .column-container {
+      display: block; /* Change to block layout for smaller screens */
+      text-align: center; /* Center the column names */
+  }
+  
+  .column-names {
+      display: inline-block; /* Keep column names on the same line */
+      margin-bottom: 10px; /* Add spacing between names and input fields */
+      margin-left: 20px;
   }
 }
+
 
