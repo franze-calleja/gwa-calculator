@@ -31,10 +31,11 @@ body {
     margin-right: 3.5rem;
 }
 
-.rows .container{
+.container{
   width: 500px;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 0px;
 }
 
 #remove {
@@ -150,6 +151,10 @@ body {
     margin-left: 25px;
   }
 
+  .input{
+    padding: 1px;
+  margin: 1px;
+  }
   #subject {
     padding-top: 1px;
     max-width: 115px;
