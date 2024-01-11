@@ -171,6 +171,12 @@ body {
     width: 90%; 
   }
 
+  .sayings{
+    font-size: smaller;
+    justify-content: center;
+    align-items: center; 
+  }
+
   
 }
 
