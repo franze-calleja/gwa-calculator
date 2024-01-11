@@ -44,15 +44,15 @@ function computeGWA() {
 
   const sayingsContainer = document.querySelector('.sayings');
   if (gwaResult <= 1.30) {
-    sayingsContainer.innerHTML = "<strong>University Scholar:</strong> WOW HA !! galing mo ha penge pang iced coffee!! hehe";
+    sayingsContainer.innerHTML = "<strong>University Scholar: </strong>  WOW HA !! galing mo ha penge pang iced coffee!! hehe";
   } else if (gwaResult <= 1.5) {
-    sayingsContainer.innerHTML = "<strong>College Scholar:</strong> bawaseee kahit pambili ko lang ng donut hehe";
+    sayingsContainer.innerHTML = "<strong>College Scholar: </strong>  bawaseee kahit pambili ko lang ng donut hehe";
   } else if (gwaResult <= 1.75) {
-    sayingsContainer.innerHTML = "<strong>Dean's Lister:</strong> nice ha nice";
+    sayingsContainer.innerHTML = "<strong>Dean's Lister: </strong>  nice ha nice";
   } else if (gwaResult < 3) {
-    sayingsContainer.innerHTML = "<strong>Passed:</strong> goods na at nakapasa ka";
+    sayingsContainer.innerHTML = "<strong>Passed: </strong>  goods na at nakapasa ka";
   } else {
-    sayingsContainer.innerHTML = "<strong>Failed:</strong> bawi bawi bawiiii kaya mo 'yan";
+    sayingsContainer.innerHTML = "<strong>Failed: </strong>  bawi bawi bawiiii kaya mo 'yan";
   }
 }
 
